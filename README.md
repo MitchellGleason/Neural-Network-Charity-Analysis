@@ -26,7 +26,7 @@ The following steps were taken to compile, train, and evaluate the model:
 
 - The target accuracy of 75% was not achieved, the final accuracy score was 72.3%. All of the following steps taken to improve the model resulted in accuracy scores within less than 1% of each other
 - Steps taken to improve the model consisted of variations of the following:
-    - Adding a third hidden layer with 25 nodes
+    - Adding a third and fourth hidden layer
     - Increasing the number of nodes in the first and second hidden layers to 150 and 75 respectively
     - Changing the activation function to leaky_relu and elu
     - Changing the number of epochs to 120
